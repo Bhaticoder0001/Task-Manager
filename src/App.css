@@ -1,0 +1,35 @@
+/* Custom styles for the assessment */
+
+#root {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f5f9; /* Light slate color */
+}
+
+/* Smooth transition for hover effects */
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom scrollbar for the task list if it gets long */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
